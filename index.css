@@ -1,0 +1,112 @@
+.body{
+
+    display: flex;
+    width:100vw;
+    height:420px;
+    /* height:100vh; */
+    background-color: black;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: poppins;
+    position:center;
+}
+
+.zomato-logo
+{
+    color:white;
+    text-align: center;
+    font-family: poppins extrabold;
+}
+.discover-best-food{
+    color:white;
+    text-align: center;
+    font-weight: 400;
+}
+.restaurant{
+    
+    /* padding:12px 0px; */
+    position: relative;
+    z-index: 1;
+    right:12px;
+    border-radius:8px 0px 0px 8px;
+    border:none;
+}
+.restaurant-text{
+    position: relative;
+    right:12px;
+    border-radius:0px 8px 8px 0px;
+    border:none;
+}
+@media screen and(min-width: 320px) and (max-width: 767px){
+    
+}
+.search-logo{
+    background-color: white;
+    border-color: transparent;
+}
+.guwahati-location{
+    border-radius:8px 0px 0px 8px;
+}
+.guwahati{
+    
+    border-radius: 0px 8px 8px 0px;
+    border-color: transparent;
+    position:relative;
+    z-index: 0;
+}
+.dropdown-btn{
+    border:none;
+    padding:0;
+    margin:0;
+}
+.border1{
+    border:1px black solid;
+}
+.card-radius{
+    border-radius: 15px;
+}
+.image-radius{
+    border-radius:15px 15px 0px 0px;
+}
+.collection-image{
+    border-radius: 15px;
+}
+.ghycollection{
+    display:flex;
+    justify-content:end;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .ghycollection{
+        justify-content:left;
+    }
+    .restaurant, .restaurant-text{
+        left:13px;
+        height:42px;
+        margin-top: 5px;
+    }
+    .contact-links{
+        margin:0px 20px;
+    }
+}
+.card-popular-location{
+    border-radius: 12px;
+}
+.button{
+    height: 55px;
+}
+.smartPhone{
+    height:250px;
+}
+.card-border{
+    border:none;
+}
+.facebook{
+    width:22px;
+    height:25px;
+    border-radius: 50%;
+    justify-content: center;
+}
+.seemore{
+  padding: 12px 0px;
+}
